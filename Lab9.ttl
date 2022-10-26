@@ -11,18 +11,18 @@
 
 <> a foaf:Document ;
    dc:date "2022-10-25"^^xsd:date ;
-   dc:title "Tomás's FOAF Profile"@en ;
+   dc:title "Tomas's FOAF Profile"@en ;
    foaf:primaryTopic <#tr> ;
    dc:creator <#tr> .
 
 <#tr> a foaf:Person ;
-   rdfs:label "Tomás Reyes" ;
+   rdfs:label "Tomas Reyes" ;
    rdfs:comment "Estudiante de DII"@es ;
-   foaf:name "Tomás Reyes" ;
-   foaf:givenName "Tomás" ;
+   foaf:name "Tomas Reyes" ;
+   foaf:givenName "Tomas" ;
    foaf:familyName "Reyes" ;
    foaf:age 22 ;
-   foaf:homepage <http://www.instagram.com/tomy_kings/?hl=es>
+   foaf:homepage <http://www.instagram.com/tomy_kings/?hl=es> ;
    foaf:img <http://i.imgur.com/7gC3Knz.jpeg> ;
    foaf:knows <http://users.dcc.uchile.cl/~ahogan/foaf.ttl> , <http://anakena.dcc.uchile.cl/~elmoreno/foaf.ttl> ,<anakena.dcc.uchile.cl/~emcastil/foaf/foaf.ttl >, <https://raw.githubusercontent.com/Litr0/Lab9WebDeDatos/main/foafb.ttl>   ;
    foaf:interest dbr:Semantic_Web , dbr:Videogames , dbr:Football  ; 
