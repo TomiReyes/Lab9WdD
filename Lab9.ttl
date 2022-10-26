@@ -1,0 +1,35 @@
+@base <http://users.dcc.uchile.cl/~treyes/foaf.ttl> .
+
+@prefix tr: <http://users.dcc.uchile.cl/~treyes/foaf.ttl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix social: <http://users.dcc.uchile.cl/~treyes/social.ttl#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix wd: <http://www.wikidata.org/entity/>.
+@prefix dbr: <http://dbpedia.org/resource/>.
+
+<> a foaf:Document ;
+   dc:date "2022-10-25"^^xsd:date ;
+   dc:title "Tomás's FOAF Profile"@en ;
+   foaf:primaryTopic <#tr> ;
+   dc:creator <#tr> .
+
+<#tr> a foaf:Person ;
+   rdfs:label "Tomás Reyes" ;
+   rdfs:comment "Estudiante de DII"@es ;
+   foaf:name "Tomás Reyes" ;
+   foaf:givenName "Tomás" ;
+   foaf:familyName "Reyes" ;
+   foaf:age 22 ;
+   foaf:homepage <http://www.instagram.com/tomy_kings/?hl=es>
+   foaf:img <http://www.instagram.com/p/Cf2dgraFjkc/?hl=es> ;
+   foaf:knows <http://users.dcc.uchile.cl/~ahogan/foaf.ttl> , <http://anakena.dcc.uchile.cl/~elmoreno/foaf.ttl> ,<anakena.dcc.uchile.cl/~emcastil/foaf/foaf.ttl >   ;
+   foaf:interest dbr:Semantic_Web , dbr:Videogames , dbr:Football  ; 
+   social:hasEnemy <http://users.dcc.uchile.cl/~ahogan/abot.ttl#ab> ;
+   social:hasSpiritAnimal dbr:Dog  ;
+   social:hasFavouritePlatonicSolid dbr:Tetrahedron ;
+   foaf:myersBriggs "INTP" ;
+   foaf:gender "Male" ;
+   foaf:nick "TomyKings". 
